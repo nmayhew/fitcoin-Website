@@ -110,12 +110,12 @@ input::-moz-focus-inner {
 /* Custom */
 .rowCu {
 	display: flex;
-	justify-content: space-between;
+	padding: 5px;
+	line-height: 0px;
   }
   
   .columnCu {
-	flex: 33.33%;
-	padding: 10px;
+	padding: 5px;
   }
 .teamPhoto {
 	border-radius:50%;
