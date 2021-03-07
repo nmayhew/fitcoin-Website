@@ -2434,6 +2434,69 @@ input, select, textarea {
 
 			}
 
+
+/* ImageBot */
+
+	.imageBot {
+		border-radius: 4px;
+		border: 0;
+		padding: 1em;
+		display: inline-block;
+		position: relative;
+	}
+
+		.imageBot img {
+			border-radius: 4px;
+			display: block;
+		}
+
+		.imageBot.left, .imageBot.right {
+			max-width: 40%;
+		}
+
+			.imageBot.left img, .imageBot.right img {
+				width: 100%;
+			}
+
+		.imageBot.left {
+			float: left;
+			padding: 0 1.5em 1em 0;
+			top: 0.25em;
+		}
+
+		.imageBot.right {
+			float: right;
+			padding: 0 0 1em 1.5em;
+			top: 0.25em;
+		}
+
+		.imageBot.fit {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 100%;
+		}
+
+			.imageBot.fit img {
+				width: 100%;
+			}
+
+		.imageBot.main {
+			display: block;
+			margin: 0 0 3em 0;
+			width: 100%;
+		}
+
+			.imageBot.main img {
+				width: 100%;
+			}
+
+			@media screen and (max-width: 736px) {
+
+				.image.main {
+					margin: 0 0 2em 0;
+				}
+
+			}
 /* Table */
 
 	.table-wrapper {
